@@ -1,11 +1,13 @@
 HELP.md
+.env
+src/main/resources/.env
 .gradle
 build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
 
-### STS ###
+### STS(Spring tool suite) ###
 .apt_generated
 .classpath
 .factorypath
