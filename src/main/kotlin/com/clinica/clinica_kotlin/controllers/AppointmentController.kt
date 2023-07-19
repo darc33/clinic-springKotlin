@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.PutMapping
 
 @RestController
 class AppointmentController {
-    @GetMapping()
+    @GetMapping(Appointment)
     fun getAllAppointments(): ResponseEntity<HealthCheckResponse> = ResponseEntity(HealthCheckResponse(), HttpStatus.OK)
     @PostMapping(CreateAppointments)
     fun createAppointment(): ResponseEntity<HealthCheckResponse> = ResponseEntity(HealthCheckResponse(), HttpStatus.OK)
